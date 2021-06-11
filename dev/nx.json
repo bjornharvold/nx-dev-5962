@@ -1,0 +1,132 @@
+{
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "dev",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "issue5962": {
+      "tags": []
+    },
+    "issue5962-e2e": {
+      "tags": [],
+      "implicitDependencies": ["issue5962"]
+    },
+    "app1-domain": {
+      "tags": ["domain:app1", "type:domain-logic"]
+    },
+    "app1": {
+      "tags": ["domain:app1", "type:app"]
+    },
+    "app1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app1"]
+    },
+    "app2-domain": {
+      "tags": ["domain:app2", "type:domain-logic"]
+    },
+    "app2": {
+      "tags": ["domain:app2", "type:app"]
+    },
+    "app2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app2"]
+    },
+    "app3-domain": {
+      "tags": ["domain:app3", "type:domain-logic"]
+    },
+    "app3": {
+      "tags": ["domain:app3", "type:app"]
+    },
+    "app3-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app3"]
+    },
+    "app4-domain": {
+      "tags": ["domain:app4", "type:domain-logic"]
+    },
+    "app4": {
+      "tags": ["domain:app4", "type:app"]
+    },
+    "app4-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app4"]
+    },
+    "app5-domain": {
+      "tags": ["domain:app5", "type:domain-logic"]
+    },
+    "app5": {
+      "tags": ["domain:app5", "type:app"]
+    },
+    "app5-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app5"]
+    },
+    "app1-feature-comp1": {
+      "tags": ["domain:app1", "type:feature"]
+    },
+    "app1-feature-comp2": {
+      "tags": ["domain:app1", "type:feature"]
+    },
+    "app1-feature-comp3": {
+      "tags": ["domain:app1", "type:feature"]
+    },
+    "app2-feature-comp1": {
+      "tags": ["domain:app2", "type:feature"]
+    },
+    "app2-feature-comp2": {
+      "tags": ["domain:app2", "type:feature"]
+    },
+    "app2-feature-comp3": {
+      "tags": ["domain:app2", "type:feature"]
+    },
+    "app3-feature-comp1": {
+      "tags": ["domain:app3", "type:feature"]
+    },
+    "app3-feature-comp2": {
+      "tags": ["domain:app3", "type:feature"]
+    },
+    "app3-feature-comp3": {
+      "tags": ["domain:app3", "type:feature"]
+    },
+    "app4-feature-comp1": {
+      "tags": ["domain:app4", "type:feature"]
+    },
+    "app4-feature-comp2": {
+      "tags": ["domain:app4", "type:feature"]
+    },
+    "app4-feature-comp3": {
+      "tags": ["domain:app4", "type:feature"]
+    },
+    "app5-feature-comp1": {
+      "tags": ["domain:app5", "type:feature"]
+    },
+    "app5-feature-comp2": {
+      "tags": ["domain:app5", "type:feature"]
+    },
+    "app5-feature-comp3": {
+      "tags": ["domain:app5", "type:feature"]
+    },
+    "shared-domain": {
+      "tags": ["domain:shared", "type:domain-logic"]
+    }
+  }
+}

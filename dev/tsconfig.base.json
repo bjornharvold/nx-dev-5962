@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dev/app1/domain": ["libs/app1/domain/src/index.ts"],
+      "@dev/app2/domain": ["libs/app2/domain/src/index.ts"],
+      "@dev/app3/domain": ["libs/app3/domain/src/index.ts"],
+      "@dev/app4/domain": ["libs/app4/domain/src/index.ts"],
+      "@dev/app5/domain": ["libs/app5/domain/src/index.ts"],
+      "@dev/app1/feature-comp1": ["libs/app1/feature-comp1/src/index.ts"],
+      "@dev/app1/feature-comp2": ["libs/app1/feature-comp2/src/index.ts"],
+      "@dev/app1/feature-comp3": ["libs/app1/feature-comp3/src/index.ts"],
+      "@dev/app2/feature-comp1": ["libs/app2/feature-comp1/src/index.ts"],
+      "@dev/app2/feature-comp2": ["libs/app2/feature-comp2/src/index.ts"],
+      "@dev/app2/feature-comp3": ["libs/app2/feature-comp3/src/index.ts"],
+      "@dev/app3/feature-comp1": ["libs/app3/feature-comp1/src/index.ts"],
+      "@dev/app3/feature-comp2": ["libs/app3/feature-comp2/src/index.ts"],
+      "@dev/app3/feature-comp3": ["libs/app3/feature-comp3/src/index.ts"],
+      "@dev/app4/feature-comp1": ["libs/app4/feature-comp1/src/index.ts"],
+      "@dev/app4/feature-comp2": ["libs/app4/feature-comp2/src/index.ts"],
+      "@dev/app4/feature-comp3": ["libs/app4/feature-comp3/src/index.ts"],
+      "@dev/app5/feature-comp1": ["libs/app5/feature-comp1/src/index.ts"],
+      "@dev/app5/feature-comp2": ["libs/app5/feature-comp2/src/index.ts"],
+      "@dev/app5/feature-comp3": ["libs/app5/feature-comp3/src/index.ts"],
+      "@dev/shared/domain": ["libs/shared/domain/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
